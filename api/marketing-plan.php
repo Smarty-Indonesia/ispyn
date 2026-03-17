@@ -1,11 +1,12 @@
-<!DOCTYPE html>
-<html>
-<head>
     <?php 
         $pagetitle="Marketing Plan - iSpyn";
         $page="marketing";
-        include('includes/head.php') 
     ?>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <?php include('includes/head.php') ?>
     <link rel='stylesheet' href='../assets/css/marketing-plan.css' />
 </head>
 

@@ -1,10 +1,12 @@
+    <?php 
+        $pagetitle="Login - iSpyn";
+        $page="login";
+    ?>
+
 <!DOCTYPE html>
 <html>
 <head>
-    <?php 
-        $pagetitle="Login Area - iSpyn";
-        include('includes/head.php') 
-    ?>
+    <?php include('includes/head.php') ?>
     <link rel='stylesheet' href='../assets/css/login-area.css' />
 </head>
 <body class="page-template-default page page-id-101 wp-embed-responsive  oxygen-body" >

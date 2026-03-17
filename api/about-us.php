@@ -1,11 +1,12 @@
-<!DOCTYPE html>
-<html>
-<head>
     <?php 
         $pagetitle="About Us - iSpyn";
         $page="about";
-        include('includes/head.php') 
     ?>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <?php include('includes/head.php') ?>
     <link rel='stylesheet' href='../assets/css/about-us.css' />
 </head>
 

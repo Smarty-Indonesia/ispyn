@@ -1,11 +1,12 @@
-<!DOCTYPE html>
-<html>
-<head>
     <?php 
         $pagetitle="Product - iSpyn";
         $page="product";
-        include('includes/head.php') 
     ?>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <?php include('includes/head.php') ?>
     <link rel='stylesheet' href='../assets/css/product.css' />
 </head>
 <body class="page-template-default page page-id-68 wp-embed-responsive  oxygen-body" >

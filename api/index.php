@@ -1,11 +1,12 @@
-<!DOCTYPE html>
-<html>
-<head>
     <?php 
         $pagetitle="Home - iSpyn";
         $page="home";
-        include('includes/head.php') 
     ?>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <?php include('includes/head.php') ?>
     <link rel='stylesheet' href='../assets/css/home.css' />
 </head>
 

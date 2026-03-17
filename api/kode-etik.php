@@ -1,11 +1,12 @@
-<!DOCTYPE html>
-<html>
-<head>
     <?php 
         $pagetitle="Kode Etik - iSpyn";
         $page="kode";
-        include('includes/head.php') 
     ?>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <?php include('includes/head.php') ?>
     <link rel='stylesheet' href='../assets/css/kode-etik.css' />
 </head>
 <body class="page-template-default page page-id-107 wp-embed-responsive  oxygen-body" >
