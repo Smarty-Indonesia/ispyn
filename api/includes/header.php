@@ -1,3 +1,11 @@
+<?php
+$current = basename($_SERVER['PHP_SELF']);
+function active($file) {
+    global $current;
+    return $file === $current ? 'current-menu-item' : '';
+}
+?>
+    
     <header id="_header-94-11" class="oxy-header-wrapper oxy-overlay-header oxy-header">
         <div id="_header_row-102-11" class="oxy-header-row">
             <div class="oxy-header-container">
@@ -23,22 +31,22 @@
 
                             <div class="menu-menu1-container">
                                 <ul id="menu-menu1" class="oxy-pro-menu-list">
-                                    <li id="menu-item-50" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-50 <?= $page == 'home' ? 'current-menu-item' : '' ?> ">
+                                    <li id="menu-item-50" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-50 <?= active('index.php') ?> ">
                                         <a href="/" aria-current="page">Home</a>
                                     </li>
-                                    <li id="menu-item-67" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-67 <?= $page == 'about' ? 'current-menu-item' : '' ?>">
+                                    <li id="menu-item-67" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-67 <?= active('about-us.php') ?>">
                                         <a href="about-us.php">About Us</a>
                                     </li>
-                                    <li id="menu-item-60" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-60 <?= $page == 'marketing' ? 'current-menu-item' : '' ?> ">
+                                    <li id="menu-item-60" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-60 <?= active('marketing-plan.php') ?>">
                                         <a href="marketing-plan.php">Marketing Plan</a>
                                     </li>
-                                    <li id="menu-item-76" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-76 <?= $page == 'product' ? 'current-menu-item' : '' ?> ">
+                                    <li id="menu-item-76" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-76 <?= active('product.php') ?>">
                                         <a href="product.php">Product</a>
                                     </li>
-                                    <li id="menu-item-123" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-123 <?= $page == 'kode' ? 'current-menu-item' : '' ?> ">
+                                    <li id="menu-item-123" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-123 <?= active('kode-etik.php') ?>">
                                         <a href="kode-etik.php">Kode Etik</a>
                                     </li>
-                                    <li id="menu-item-129" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-129 <?= $page == 'contact' ? 'current-menu-item' : '' ?>">
+                                    <li id="menu-item-129" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-129 <?= active('contact-us.php') ?>">
                                         <a href="contact-us.php">Contact Us</a>
                                     </li>
                                 </ul>
