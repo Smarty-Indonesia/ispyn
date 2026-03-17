@@ -1,13 +1,14 @@
 <?php
-$current = basename($_SERVER['PHP_SELF']);
+$current = $_SERVER['REQUEST_URI'];
 
-if ($current == '' || $current == 'index.php') {
-    $current = 'index.php';
+// anggap root sebagai index.php
+if ($current === '/' || $current === '') {
+    $current = '/index.php';
 }
 
-function active($file) {
+function active($path) {
     global $current;
-    return $file === $current ? 'current-menu-item' : '';
+    return strpos($current, $path) !== false ? 'current-menu-item' : '';
 }
 ?>
     
@@ -37,7 +38,7 @@ function active($file) {
                             <div class="menu-menu1-container">
                                 <ul id="menu-menu1" class="oxy-pro-menu-list">
                                     <li id="menu-item-50" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-50 <?= active('index.php') ?> ">
-                                        <a href="/" aria-current="page">Home</a>
+                                        <a href="index.php" aria-current="page">Home</a>
                                     </li>
                                     <li id="menu-item-67" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-67 <?= active('about-us.php') ?>">
                                         <a href="about-us.php">About Us</a>
