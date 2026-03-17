@@ -24,7 +24,7 @@
                             <div class="menu-menu1-container">
                                 <ul id="menu-menu1" class="oxy-pro-menu-list">
                                     <li id="menu-item-50" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-50 <?= $page == 'home' ? 'current-menu-item' : '' ?> ">
-                                        <a href="index.php" aria-current="page">Home</a>
+                                        <a href="/" aria-current="page">Home</a>
                                     </li>
                                     <li id="menu-item-67" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-67 <?= $page == 'about' ? 'current-menu-item' : '' ?>">
                                         <a href="about-us.php">About Us</a>
