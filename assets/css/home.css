@@ -1,0 +1,178 @@
+#section-2-47 > .ct-section-inner-wrap {
+  max-width: 100%;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+}
+#section-12-47 > .ct-section-inner-wrap {
+  padding-top: 64px;
+  padding-bottom: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#section-12-47 {
+  background-image: url(../../assets/img/about-us/Background@2x.png);
+  background-color: #e6f0f9;
+  text-align: center;
+  background-position: 0% 50%;
+}
+#section-60-47 > .ct-section-inner-wrap {
+  padding-top: 69px;
+  padding-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#section-60-47 {
+  background-image:
+    linear-gradient(rgba(86, 109, 143, 0.7), rgba(86, 109, 143, 0.7)),
+    url(https://demo.ispyn.co.id/wp-content/uploads/2023/11/brosur-produkk-min.jpg);
+  background-size: auto, cover;
+  text-align: center;
+  background-color: #61558e;
+}
+#section-104-47 > .ct-section-inner-wrap {
+  max-width: 100%;
+  padding-top: 28px;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#section-104-47 {
+  text-align: center;
+  max-width: 100%;
+}
+#section-45-47 > .ct-section-inner-wrap {
+  padding-top: 30px;
+  padding-bottom: 13px;
+}
+#section-45-47 {
+  background-color: #56558e;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@media (max-width: 767px) {
+  #section-60-47 > .ct-section-inner-wrap {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media (max-width: 479px) {
+  #section-12-47 > .ct-section-inner-wrap {
+    padding-top: 33px;
+    padding-bottom: 38px;
+  }
+}
+@media (max-width: 479px) {
+  #section-60-47 > .ct-section-inner-wrap {
+    padding-top: 38px;
+    padding-bottom: 19px;
+  }
+}
+@media (max-width: 479px) {
+  #section-104-47 > .ct-section-inner-wrap {
+    padding-top: 14px;
+  }
+}
+@media (max-width: 479px) {
+  #section-45-47 > .ct-section-inner-wrap {
+    padding-top: 15px;
+    padding-bottom: 20px;
+  }
+}
+#div_block-47-47 {
+  width: 50%;
+  align-items: center;
+  text-align: center;
+}
+@media (max-width: 991px) {
+  #new_columns-46-47 > .ct-div-block {
+    width: 50% !important;
+  }
+}
+@media (max-width: 991px) {
+  #new_columns-46-47 > .ct-div-block {
+    width: 100% !important;
+  }
+}
+#new_columns-46-47 {
+  margin-top: 0px;
+}
+#headline-13-47 {
+  margin-bottom: 12px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#headline-61-47 {
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #ffffff;
+  margin-bottom: 13px;
+  font-size: 45px;
+}
+#headline-106-47 {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 26px;
+  font-size: 45px;
+}
+@media (max-width: 767px) {
+  #headline-61-47 {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+@media (max-width: 479px) {
+  #headline-13-47 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+}
+@media (max-width: 479px) {
+  #headline-61-47 {
+    font-size: 20px;
+    margin-bottom: 6px;
+  }
+}
+@media (max-width: 479px) {
+  #headline-106-47 {
+    font-size: 20px;
+    margin-bottom: 13px;
+  }
+}
+#text_block-14-47 {
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#link_text-15-47 {
+  margin-top: 24px;
+  margin-left: 20px;
+  margin-right: 20px;
+  url-encoded: true;
+}
+#link_text-15-47:hover {
+  color: #460587;
+}
+#text_block-103-47 {
+  url-encoded: true;
+}
+#image-105-47 {
+  margin-bottom: 0px;
+  max-width: 100%;
+  width: 100%;
+}
+#slider-62-47 .unslider-arrow {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+#slider-62-47 .unslider-nav ol li {
+  border-color: #ffffff;
+}
+#slider-62-47 .unslider-nav ol li.unslider-active {
+  background-color: #ffffff;
+}
