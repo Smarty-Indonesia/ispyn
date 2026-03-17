@@ -1,6 +1,5 @@
     <?php 
         $pagetitle="Product - iSpyn";
-        $page="product";
     ?>
 
 <!DOCTYPE html>

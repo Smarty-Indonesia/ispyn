@@ -1,5 +1,10 @@
 <?php
 $current = basename($_SERVER['PHP_SELF']);
+
+if ($current == '' || $current == 'index.php') {
+    $current = 'index.php';
+}
+
 function active($file) {
     global $current;
     return $file === $current ? 'current-menu-item' : '';

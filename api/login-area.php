@@ -1,6 +1,6 @@
     <?php 
-        $pagetitle="Login - iSpyn";
         $page="login";
+        $pagetitle="Login - iSpyn";
     ?>
 
 <!DOCTYPE html>

@@ -1,6 +1,6 @@
     <?php 
-        $pagetitle="Marketing Plan - iSpyn";
         $page="marketing";
+        $pagetitle="Marketing Plan - iSpyn";
     ?>
 
 <!DOCTYPE html>

@@ -1,6 +1,6 @@
     <?php 
-        $pagetitle="Contact Us - iSpyn";
         $page="contact";
+        $pagetitle="Contact Us - iSpyn";
     ?>
 
 <!DOCTYPE html>

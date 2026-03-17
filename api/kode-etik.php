@@ -1,6 +1,6 @@
     <?php 
-        $pagetitle="Kode Etik - iSpyn";
         $page="kode";
+        $pagetitle="Kode Etik - iSpyn";
     ?>
 
 <!DOCTYPE html>
