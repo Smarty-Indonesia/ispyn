@@ -38,22 +38,22 @@ function active($path) {
                             <div class="menu-menu1-container">
                                 <ul id="menu-menu1" class="oxy-pro-menu-list">
                                     <li id="menu-item-50" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-50 <?= active('index.php') ?> ">
-                                        <a href="index.php" aria-current="page">Home</a>
+                                        <a href="/" aria-current="page">Home</a>
                                     </li>
                                     <li id="menu-item-67" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-67 <?= active('about-us.php') ?>">
-                                        <a href="about-us.php">About Us</a>
+                                        <a href="about-us">About Us</a>
                                     </li>
                                     <li id="menu-item-60" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-60 <?= active('marketing-plan.php') ?>">
-                                        <a href="marketing-plan.php">Marketing Plan</a>
+                                        <a href="marketing-plan">Marketing Plan</a>
                                     </li>
                                     <li id="menu-item-76" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-76 <?= active('product.php') ?>">
-                                        <a href="product.php">Product</a>
+                                        <a href="product">Product</a>
                                     </li>
                                     <li id="menu-item-123" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-123 <?= active('kode-etik.php') ?>">
-                                        <a href="kode-etik.php">Kode Etik</a>
+                                        <a href="kode-etik">Kode Etik</a>
                                     </li>
                                     <li id="menu-item-129" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-129 <?= active('contact-us.php') ?>">
-                                        <a href="contact-us.php">Contact Us</a>
+                                        <a href="contact-us">Contact Us</a>
                                     </li>
                                 </ul>
                             </div>
@@ -75,7 +75,7 @@ function active($path) {
                 </div>
                 <div id="_header_right-107-11" class="oxy-header-right">
                     <div id="div_block-114-11" class="ct-div-block">
-                        <a id="link_text-115-11" class="ct-link-text atomic-medium-button" href="login-area.php">LOGIN</a>
+                        <a id="link_text-115-11" class="ct-link-text atomic-medium-button" href="login-area">LOGIN</a>
                     </div>
                 </div>
             </div>
