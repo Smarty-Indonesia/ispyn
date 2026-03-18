@@ -1,7 +1,6 @@
 <?php
 $current = $_SERVER['REQUEST_URI'];
 
-// anggap root sebagai index.php
 if ($current === '/' || $current === '') {
     $current = '/index.php';
 }
