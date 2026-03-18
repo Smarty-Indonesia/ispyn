@@ -1,5 +1,5 @@
     <?php 
-        $page="about";
+        $page="about-us";
         $pagetitle="About Us - iSpyn";
     ?>
 

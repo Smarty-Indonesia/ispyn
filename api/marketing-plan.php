@@ -1,5 +1,5 @@
     <?php 
-        $page="marketing";
+        $page="marketing-plan";
         $pagetitle="Marketing Plan - iSpyn";
     ?>
 

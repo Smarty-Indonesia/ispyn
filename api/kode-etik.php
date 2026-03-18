@@ -1,5 +1,5 @@
     <?php 
-        $page="kode";
+        $page="kode-etik";
         $pagetitle="Kode Etik - iSpyn";
     ?>
 

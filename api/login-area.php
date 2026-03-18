@@ -1,5 +1,5 @@
     <?php 
-        $page="login";
+        $page="login-area";
         $pagetitle="Login - iSpyn";
     ?>
 

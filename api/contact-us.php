@@ -1,5 +1,5 @@
     <?php 
-        $page="contact";
+        $page="contact-us";
         $pagetitle="Contact Us - iSpyn";
     ?>
 

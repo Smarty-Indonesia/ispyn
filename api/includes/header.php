@@ -40,19 +40,19 @@ function active($path) {
                                     <li id="menu-item-50" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-50 <?= active('index.php') ?> ">
                                         <a href="/" aria-current="page">Home</a>
                                     </li>
-                                    <li id="menu-item-67" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-67 <?= active('about-us.php') ?>">
+                                    <li id="menu-item-67" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-67 <?= active('about-us') ?>">
                                         <a href="about-us">About Us</a>
                                     </li>
-                                    <li id="menu-item-60" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-60 <?= active('marketing-plan.php') ?>">
+                                    <li id="menu-item-60" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-60 <?= active('marketing-plan') ?>">
                                         <a href="marketing-plan">Marketing Plan</a>
                                     </li>
-                                    <li id="menu-item-76" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-76 <?= active('product.php') ?>">
+                                    <li id="menu-item-76" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-76 <?= active('product') ?>">
                                         <a href="product">Product</a>
                                     </li>
-                                    <li id="menu-item-123" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-123 <?= active('kode-etik.php') ?>">
+                                    <li id="menu-item-123" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-123 <?= active('kode-etik') ?>">
                                         <a href="kode-etik">Kode Etik</a>
                                     </li>
-                                    <li id="menu-item-129" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-129 <?= active('contact-us.php') ?>">
+                                    <li id="menu-item-129" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-129 <?= active('contact-us') ?>">
                                         <a href="contact-us">Contact Us</a>
                                     </li>
                                 </ul>
